@@ -1,0 +1,180 @@
+.mbsc-ios.mbsc-calendar-label-text {
+  text-align: center !important;
+}
+
+.el-date-table__row {
+  .disabled {
+    background: #f5f7fa;
+    cursor: not-allowed;
+  }
+  .prev-month, .next-month {
+    opacity: 0;
+    user-select: none;
+    position: relative;
+    z-index: -5;
+  }
+  .next-month {
+    margin-top: -48px;
+  }
+}
+
+.el-date-range-picker {
+  width: 800px !important;
+  @media (max-width: 1025px) {
+    width: 600px !important;
+  }
+  @media (max-width: 700px) {
+    width: 100% !important;
+  }
+}
+
+.date-box {
+  height: 50px;
+}
+.date-box.charter-return {
+  border-radius: 4px;
+  .date {
+    text-align: center;
+    color: #06882C;
+    font-size: 11px !important;
+  }
+  .text {
+    font-size: 10px;
+    color: #06882C;
+  }
+  span {
+    color: #06882C;
+  }
+}
+.date-box.charter {
+  border-radius: 4px;
+  .date {
+    text-align: center;
+    color: #0073FF;
+    font-size: 11px !important;
+  }
+  .text {
+    font-size: 9px;
+    color: #0073FF;
+  }
+  .price {
+    color: #03b115;
+  }
+  span {
+    color: #0073FF;
+  }
+}
+
+.date-box {
+  .custom-tooltip {
+    display: none !important;
+    min-width: 64px;
+  }
+}
+.available.in-range {
+  .date-box {
+    background: #f2f6fc;
+    &:hover {
+      .custom-tooltip {
+        display: flex !important;
+      }
+    }
+  }
+}
+
+.available.in-range.start-date,
+.available.in-range.end-date {
+  .date-box {
+    background: #0073FF;
+    border-radius: 4px;
+    .date, .text, span {
+      color: white;
+    }
+  }
+}
+.in-range.start-date,
+.in-range.end-date {
+  .date-box.charter {
+    background: #95beef;
+    .date, .text, span {
+      color: white;
+    }
+  }
+}
+.in-range.start-date,
+.in-range.end-date {
+  .date-box.charter-return {
+    background: #95beef;
+    .date, .text, span {
+      color: white;
+    }
+  }
+}
+
+.available.current {
+  .date-box {
+    border-radius: 50%;
+    background: #0073FF;
+    height: 32px;
+    width: 32px;
+    .date, .text, span {
+      color: white;
+    }
+  }
+}
+.available.current {
+  .date-box.charter {
+    border-radius: 4px;
+    background: #0073FF;
+    height: 45px;
+    width: 50px;
+    .date {
+      color: white;
+    }
+    .text {
+      color: white;
+    }
+    .price {
+      color: white;
+    }
+  }
+}
+.available.current {
+  .date-box.charter-return {
+    border-radius: 4px;
+    background: #0073FF;
+    height: 45px;
+    width: 50px;
+    .date {
+      color: white;
+    }
+    .text {
+      color: white;
+    }
+  }
+}
+
+.search-inputs {
+  .dp__input {
+    height: 48px;
+  }
+}
+
+.tour {
+  .dp__cell_inner {
+    width: 44px !important;
+    height: 44px !important;
+    .custom-tooltip {
+      display: none !important;
+      min-width: 64px;
+    }
+    &:hover {
+      .custom-tooltip {
+        display: flex !important;
+      }
+    }
+  }
+}
+.dp__outer_menu_wrap.dp--menu-wrapper {
+  display: none !important;
+}

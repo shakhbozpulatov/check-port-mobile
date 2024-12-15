@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "uz.asialuxe.twa.nga",
+        "sha256_cert_fingerprints": ["32:3B:38:D0:F4:0F:84:40:C0:59:0F:FF:4A:F7:68:07:49:B8:49:60:BB:23:C4:77:87:92:70:05:41:0F:09:67"]
+      }
+    }]

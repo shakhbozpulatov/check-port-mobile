@@ -1,0 +1,7 @@
+<svg width="135" height="24" viewBox="0 0 135 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="3" cy="12" r="3" fill="#D1D5DB"/>
+<line x1="7.5" y1="11.5" x2="51" y2="11.5" stroke="#D1D5DB" stroke-linecap="round" stroke-dasharray="3 3"/>
+<path d="M71.5 10H75.5C76.0304 10 76.5391 10.2107 76.9142 10.5858C77.2893 10.9609 77.5 11.4696 77.5 12C77.5 12.5304 77.2893 13.0391 76.9142 13.4142C76.5391 13.7893 76.0304 14 75.5 14H71.5L67.5 21H64.5L66.5 14H62.5L60.5 16H57.5L59.5 12L57.5 8H60.5L62.5 10H66.5L64.5 3H67.5L71.5 10Z" stroke="#9CA3AF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="84" y1="11.5" x2="127.5" y2="11.5" stroke="#D1D5DB" stroke-linecap="round" stroke-dasharray="3 3"/>
+<circle cx="132" cy="12" r="3" fill="#D1D5DB"/>
+</svg>

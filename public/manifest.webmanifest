@@ -1,0 +1,25 @@
+{
+	"name": "Asialuxe Travel",
+	"short_name": "Asialuxe",
+	"description": "Avia & Travel",
+	"theme_color": "#0073ff",
+	"background_color": "#0073ff",
+	"display": "fullscreen",
+	"orientation": "portrait",
+	"scope": "/",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "/images/icons/logo512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/images/icons/logo512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}
